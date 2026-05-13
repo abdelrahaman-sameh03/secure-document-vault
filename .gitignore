@@ -1,0 +1,35 @@
+# Environment / secrets
+.env
+*.env
+
+# Config files that may contain real secrets
+app/config.local.php
+
+# Uploaded/encrypted documents
+storage/documents/*
+!storage/documents/.gitkeep
+
+# Generated RSA keys
+storage/keys/*
+!storage/keys/.gitkeep
+
+# SSL certificates and private keys
+ssl/*.key
+ssl/*.crt
+ssl/*.pem
+ssl/*.csr
+
+# Logs
+logs/*
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.zip
